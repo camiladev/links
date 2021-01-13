@@ -15,5 +15,5 @@ Se gostou do layout ou do modelo fique a vontade para realizar um fork no projet
 
 ## Deploy
 
-
+Para realizar o deploy utilizei a Vercel integrada com o GitHub.
 
