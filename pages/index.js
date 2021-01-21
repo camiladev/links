@@ -25,6 +25,15 @@ export default function Home() {
 
               </a>
 
+              <a href="https://amzn.to/3p6wngL" className={ styles.card }>
+                <div className={ styles.iconCard }><FiBookOpen /></div>
+                <div className={ styles.contentCard }>
+                  <h3>20% Desconto em Materiais Escolares</h3>
+                  <p>Seja Prime e ganhe até 20% desconto em materiais escolares, frete grátis e muito mais.</p>
+                </div>
+
+              </a>
+
               <a href="https://digitalinnovation.one/sign-up?ref=LVQ82JPJST" className={ styles.card }>
                 <div className={ styles.iconCard }><FiPlay /></div>
                 <div className={ styles.contentCard }>
@@ -33,13 +42,13 @@ export default function Home() {
                 </div>
               </a>
 
-              <a href="https://amzn.to/2XITvWt" className={ styles.card }>
+              {/* <a href="https://amzn.to/2XITvWt" className={ styles.card }>
                 <div className={ styles.iconCard }><FiBookOpen /></div>
                 <div className={ styles.contentCard }>
                   <h3>Mega Oferta: até 70% off em eBooks</h3>
                   <p>Válido até 19/01/2021 </p>
                 </div>
-              </a>
+              </a> */}
 
               {/* <a href="/" className={ styles.card }>
                 <div className={ styles.iconCard }><FiGlobe /></div>
