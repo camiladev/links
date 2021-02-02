@@ -3,9 +3,11 @@ import Layout, { siteTitle } from '../components/layout'
 import styles from '../styles/Home.module.css'
 
 import { FiGlobe, FiPlay, FiBookOpen } from "react-icons/fi";
+import {BiRocket} from "react-icons/bi"
 import { FaCalculator } from "react-icons/fa"
 
 export default function Home() {
+  const trilha = "<NLW />";
   return (
       <Layout>
         <Head>
@@ -16,6 +18,15 @@ export default function Home() {
         <section className={ styles.grid }>
       
             {/* Cada a é um card */}
+            <a href="https://nextlevelweek.com/convite/camiladev" className={ styles.card }>
+                <div className={ styles.iconCard }><BiRocket /></div>
+                <div className={ styles.contentCard }>
+                  <h3>{trilha}</h3>
+                  <p>4ª Edição do Next Level Week acontecerá na semana de 22 a 28 de Fevereiro,
+                     um evento 100% online e gratuito. Click aqui e garanta a sua vaga! </p>
+                </div>
+
+              </a>
               <a href="https://suaidadehoje.netlify.app/" className={ styles.card }>
                 <div className={ styles.iconCard }><FaCalculator /></div>
                 <div className={ styles.contentCard }>
